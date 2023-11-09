@@ -1,0 +1,14 @@
+/* Global styling */
+
+Primary color {
+  color: #CAFF33;
+  background: #1A1A1A;
+}
+Secondary color {
+  color: white;
+  background: #CAFF33;
+}
+
+body{
+  background-color: #1A1A1A;
+}
