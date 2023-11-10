@@ -12,3 +12,14 @@ Secondary color {
 body{
   background-color: #1A1A1A;
 }
+
+
+/* security */
+*{
+  font-family: 'Lexend', sans-serif;
+}
+
+.text {
+  color: lawngreen !important;
+
+}
