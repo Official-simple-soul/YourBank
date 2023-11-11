@@ -1,20 +1,17 @@
 /* Global styling */
-
-Primary color {
-  color: #CAFF33;
-  background: #1A1A1A;
+.about-bg-col {
+  background: #5c3838;
 }
-Secondary color {
-  color: white;
+.nav-border-col {
+  border: 1px solid #262626;
+}
+.login-bg-col {
   background: #CAFF33;
 }
-
-body{
-  background-color: #1A1A1A;
+.login-text-col {
+  color: #CAFF33;
 }
 
-
-/* security */
 *{
   font-family: 'Lexend', sans-serif;
 }
@@ -26,8 +23,22 @@ body{
 }
 
 .text {
-  color: lawngreen !important;
+  color: #CAFF33 !important;
 
 }
 
-/* security */
+/* footer */
+.line {
+  border-right: 1px solid #B3B3B3;
+}
+.line-text-col {
+   color: #B3B3B3;
+}
+
+@media  (min-width: 320px) and (max-width: 430px) {
+  .social {
+    position: relative;
+    bottom: 1.5rem;
+  }
+ 
+}
