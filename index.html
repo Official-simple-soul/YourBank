@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Bank</title>
+  <title>YourBank</title>
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css	">
   <!-- Css -->
@@ -12,9 +12,303 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-
+  <div>
+    <img src="assets/images/home_images/dots.png" alt="">
+  </div>
+  <nav class="container navbar navbar-expand-lg z-1 my-4 fixed-top border rounded-pill">
+    <div class="container">
+      <div class="flex-grow-1 d-flex align-items-center gap-1">
+        <img src="assets/icons/home_icon/shape-30.png" alt="">
+        <span class="text-white">YourBanK</span>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/icons/home_icon/Vector (Stroke).png" alt="">
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Security</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav gx-2 mb-2 mb-lg-0">
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="login nav-link" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hero>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="right-cont col-lg-6">
+          <div>
+            <div class="txt-v d-flex align-items-center mb-5 rounded-pill col-lg-8">
+              <img class="p-2" src="assets/icons/home_icon/verification.png" alt="">
+              <span class="fs-5 text-white">No LLC Required, No Credit Check.</span>
+            </div>
+            <div class="mb-4">
+              <h1 class="text-white mb-3">
+                Welcome to YourBanK Empowering Your <span class="fin">Financial Journey</span>
+              </h1>
+              <p class="txt-w">At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to
+                achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize
+                our customers' needs.
+              </p>
+            </div>
+            <div>
+              <button class="btn btn-open rounded-pill">Open Account</button>
+            </div>
+          </div>
+        </div>
+        <div class="left-cont col-5">
+          <div class="top-cont d-flex align-items-center gap-2 p-2 rounded">
+            <span class="c-t d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-plus"></i></span>
+            <div class="d-flex flex-column">
+              <span class="n-mo text-white">+$5000,00</span>
+              <span class="m-inc">Monthly Income</span>
+            </div>
+          </div>
+          <div class="details p-3">
+            <div>
+              <span class="text-white">Your Transactions</span>
+            <div>
+              <div class="d-flex align-items-center gap-2 p-2 rounded">
+                <span></span>
+                <span class="c-t d-flex align-items-center justify-content-center rounded-circle">Transaction</span>
+                <span>Joel Kenley</span>
+              </div>
+              <span>-$68.00</span>
+            </div>
+            <div>
+              <div>
+                <span></span>
+                <span>Transaction</span>
+                <span>Mark Smith</span>
+              </div>
+              <span>-$68.00</span>
+            </div>
+            <div>
+              <div>
+                <span></span>
+                <span>Transaction</span>
+                <span>Lenen Ray</span>
+              </div>
+              <span>-$68.00</span>
+            </div>
+            </div>
+            <div>
+              <span class="text-white">Money Exchange</span>
+              <div class="d-flex mt-4">
+                <div class="col bxb border rounded-start">
+                  <div class="bxb border-bottom p-2">
+                    <div>
+                      <img class="me-1" src="assets/icons/home_icon/indian.png" alt="">
+                      <span>INR</span>
+                    </div>
+                    <span>Indian Rupees</span>
+                  </div>
+                  <div class="p-2">5,0000</div>
+                </div>
+                <div class="col border rounded-end">
+                  <div class="border-bottom p-2">
+                    <div>
+                      <img class="me-1" src="assets/icons/home_icon/usa.png" alt="">
+                      <span>USA</span>
+                    </div>
+                    <span>United States Dollar</span>
+                  </div>
+                  <div class="p-2">12.00</div>
+                </div>
+              </div>
+              <button class="btn btn-primary rounded-pill">Exchange</button>
+            </div>
+            <div>
+              <span>Supported Currency</span>
+              <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </hero>
+  <!-- Section-1 -->
+  <section class="my-5">
+    <div class="container">
+      <div class="mb-5">
+        <span class="fs-2 text-white">Our <Span style="color: #CAFF33;">Products</Span></span>
+        <div class="row justify-content-between">
+          <p class="col-lg-8 pt-2" style="color: #E4E4E7;">
+            Discover a range of comprehensive and customizable banking products at YourBank, 
+            designed to suit your unique financial needs and aspirations
+          </p>
+          <div class="btn-cont rounded-5 p-sm-1 d-flex align-items-center justify-content-between col-sm-7 col-lg-3">
+            <button class="btn-cont-b btn btn-primary rounded-pill border-0">For individuals</button>
+            <button class="btn-cont-b btn btn-primary rounded-pill border-0">For Businesses</button>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="box text-center mb-4 col-lg-4 border-end">
+          <img class="mb-4" src="assets/icons/home_icon/brief_case.png" alt="">
+          <div class="d-flex flex-column gap-3">
+            <span class="text-white">Checking Accounts</span>
+            <p style="color:#E4E4E7;">
+              Enjoy easy and convenient access to your funds with our range of checking account options. 
+              Benefit from features such as online and mobile banking, debit cards, and free ATM access.
+            </p>
+        </div>
+        </div>
+        <div class="box text-center mb-4 col-lg-4 border-end">
+          <img class="mb-4" src="assets/icons/home_icon/box.png" alt="">
+          <div class="d-flex flex-column gap-3">
+            <span class="text-white">Savings Accounts</span>
+            <p style="color:#E4E4E7;">
+              Build your savings with our competitive interest rates and flexible savings account options. 
+              Whether you're saving for a specific goal or want to grow your wealth over time, we have the right account for you.
+            </p>
+          </div>
+        </div>
+        <div class="text-center mb-4 col-lg-4">
+          <img class="mb-4" src="assets/icons/home_icon/camera.png" alt="">
+          <div class="d-flex flex-column gap-3">
+            <span class="text-white">Loans and Mortgages</span>
+            <p style="color:#E4E4E7;">
+              Realize your dreams with our flexible loan and mortgage options. From personal loans to home mortgages, our experienced 
+              loan officers are here to guide you through the application process and help you secure the funds you need.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section-2 -->
+  <section>
+    <div class="container d-flex flex-column gap-5">
+      <div class="">
+        <Span class="fs-2" style="color: #CAFF33;">Use Cases</Span>
+        <p style="color:#E4E4E7;">At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
+      </div>
+      <div class="cont-top row justify-content-between">
+        <div class="L l-cont col-lg-6 px-4 py-4 rounded-4">
+          <div class="d-flex gap-2 mb-2">
+            <div class="bxr col-6 rounded-4 p-5 d-flex flex-column text-center">
+              <span><img class="mb-4" src="assets/icons/home_icon/hand_money.png" alt=""></span>
+              <span class="text-white">Managing Personal Finances</span>
+            </div>
+            <div class="bxr col-6 rounded-4 p-5 d-flex flex-column text-center">
+              <span><img class="mb-4" src="assets/icons/home_icon/hand.png" alt=""></span>
+              <span class="text-white">Saving for the Future</span>
+            </div>
+          </div>
+          <div class="d-flex gap-2">
+            <div class="bxr col-6 rounded-4 p-5 d-flex flex-column text-center">
+              <span><img class="mb-4" src="assets/icons/home_icon/bank.png" alt=""></span>
+              <span class="text-white">Homeownership</span>
+            </div>
+            <div class="bxr col-6 rounded-4 p-5 d-flex flex-column text-center">
+              <span><img class="mb-4" src="assets/icons/home_icon/book.png" alt=""></span>
+              <span class="text-white">Education Funding</span>
+            </div>
+          </div>
+        </div>
+        <div class="R r-cont col-lg-5 my-2" style="color:#E4E4E7;">
+          <div class="mb-5">
+            <Span class="text-white fs-2">For Individuals</Span>
+            <p class="mt-3">
+              For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital 
+              support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers
+            </p>
+          </div>
+          <div class="row mb-5">
+            <div class="d-flex flex-column col">
+              <span class="fs-1" style="color: #CAFF33;">78%</span>
+              <span>Secure Retirement Planning</span>
+            </div>
+            <div class="d-flex flex-column col">
+              <span class="fs-1" style="color: #CAFF33;">63%</span>
+              <span>Manageable Debt Consolidation</span>
+            </div>
+            <div class="d-flex flex-column col">
+              <span class="fs-1" style="color: #CAFF33;">91%</span>
+              <span>Reducing financial burdens</span>
+            </div>
+          </div>
+          <div>
+            <button class="btn-learn btn btn-primary rounded-pill">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="cont-bottom row justify-content-between">
+        <div class="L col-lg-5 my-2" style="color:#E4E4E7;">
+          <div  class="mb-5">
+            <Span class="text-white fs-2">For Business</Span>
+            <p class="mt-3">
+              For businesses, we empower growth with working capital solutions that optimize cash flow, and 
+              our tailored financing options fuel business expansion. Whatever your financial aspirations, 
+              YourBank is committed to providing the right tools and support to achieve them
+            </p>
+          </div>
+          <div class="row mb-5">
+            <div class="d-flex flex-column col">
+              <span class="fs-1" style="color: #CAFF33;">65%</span>
+              <span>Cash Flow Management</span>
+            </div>
+            <div class="d-flex flex-column col">
+              <span class="fs-1" style="color: #CAFF33;">70%</span>
+              <span>Drive Business Expansion</span>
+            </div>
+            <div class="d-flex flex-column col">
+              <span class="fs-1" style="color: #CAFF33;">45%</span>
+              <span>Streamline Payroll Processing</span>
+            </div>
+          </div>
+          <div>
+            <button class="btn-learn btn btn-primary rounded-pill">Learn More</button>
+          </div>
+        </div>
+        <div class="R l-cont col-lg-6 px-4 py-4 rounded-4">
+          <div class="d-flex gap-2 mb-2">
+            <div class="bxr col-6 rounded-4 p-5 d-flex flex-column text-center">
+              <span><img class="mb-4" src="assets/icons/home_icon/building.png" alt=""></span>
+              <span class="text-white">Startups and Entrepreneurs</span>
+            </div>
+            <div class="bxr col-6 rounded-4 p-5 d-flex flex-column text-center">
+              <span><img class="mb-4" src="assets/icons/home_icon/camera.png" alt=""></span>
+              <span class="text-white">Cash Flow Management</span>
+            </div>
+          </div>
+          <div class="d-flex gap-2">
+            <div class="bxr col-6 rounded-4 p-5 d-flex flex-column text-center">
+              <span><img class="mb-4" src="assets/icons/home_icon/pot.png" alt=""></span>
+              <span class="text-white">Business Expansion</span>
+            </div>
+            <div class="bxr col-6 rounded-4 p-5 d-flex flex-column text-center">
+              <span><img class="mb-4" src="assets/icons/home_icon/coin.png" alt=""></span>
+              <span class="text-white">Payment Solutions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Js Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Swiper Js -->

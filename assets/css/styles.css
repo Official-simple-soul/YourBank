@@ -1,14 +1,132 @@
 /* Global styling */
 
-Primary color {
+Primary-color {
   color: #CAFF33;
   background: #1A1A1A;
 }
-Secondary color {
+Secondary-color {
   color: white;
   background: #CAFF33;
 }
 
 body{
   background-color: #1A1A1A;
+}
+
+/* Navbar */
+.navbar {
+  border-color: #262626 !important;
+  background-color: #1A1A1A;
+}
+.nav-link {
+  color: white;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+.nav-link:hover{
+  color: white;
+  background-color: #262626;
+}
+
+.login {
+  color: black;
+  background-color: #CAFF33;
+}
+.login:hover{
+  color: black;
+  background-color: #ffff;
+}
+/* End of Navbar */
+
+/* Hero */
+/* Right-cont */
+.txt-v{
+  background-color: #262626;
+}
+.fin{
+  color: #CAFF33;
+}
+.txt-w{
+  color: #E4E4E7;
+}
+.btn-open{
+  color: #1C1C1C;
+  background-color: #CAFF33;
+}
+.btn-open:hover{
+  background-color: white;
+}
+/* end or Right-cont */
+
+/* left-cont */
+  .left-cont{
+    background: url(../icons/home_icon/multi_arrows.png);
+    background-position-x: calc(14.2rem);
+    background-position-y: calc(4.9rem);
+    background-size: calc(15rem);
+    background-repeat: no-repeat;
+  }
+  .details{
+    border: solid 0.87px;
+    border-radius: 10.4px;
+    width: 80%;
+    background-color: #1A1A1A;
+  }
+  .top-cont{
+    position: relative;
+    top: 2rem;
+    left: -2.5rem;
+    background-color:#22251B;
+    width: fit-content;
+  }
+  .c-t{
+    background-color: #CAFF33;
+    height: 33px;
+    width: 33px;
+  }
+  .n-mo{
+    font-size: 15px;
+  }
+  .m-inc{
+    color: #E4E4E7;
+    font-size: 12px;
+  }
+
+
+/* end of left-cont */
+
+/* Section-1 */
+.box{
+  border-color: #262626 !important;
+}
+.btn-cont{
+  background-color:#1A1A1A; 
+  border:1px solid; 
+  border-color: #262626;
+}
+.btn-cont-b{
+  background: none;
+}
+.btn-cont-b:hover{
+  background-color: #CAFF33;
+  color: black;
+}
+/* end of section-1 */
+
+/* Section-2 */
+.l-cont{
+  background-color: #1C1C1C;
+}
+.bxr{
+  background-color:#1A1A1A; 
+  border:1px solid; 
+  border-color: #262626;
+}
+.btn-learn{
+  background-color: #262626;
+  border-color: #1C1C1C;
+}
+.btn-learn:hover{
+  background-color: #262626;
+  border-color: #4b4242;
 }
