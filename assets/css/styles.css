@@ -1,14 +1,49 @@
 /* Global styling */
+  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;500&display=swap');
 
-Primary color {
+.Primary_color {
   color: #CAFF33;
-  background: #1A1A1A;
+  font-family: 'Lexend', sans-serif;
+  text-align: center;
+
 }
-Secondary color {
+.Secondary_color {
   color: white;
-  background: #CAFF33;
+  font-family: 'Lexend', sans-serif;
+  text-align: center;
+  
 }
 
 body{
   background-color: #1A1A1A;
+}
+
+.container{
+  width: 80%;
+  height: 100vh;
+  background-color:black;
+  
+}
+.login_contain{
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+img{
+  position: absolute;
+  left: 1048px;
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; */
+}
+.input_section{
+  display: flex;
+  width: 70%;
+}
+
+.left_input{
+width: 100%;
+}
+.right_input{
+width: 100%;
 }
