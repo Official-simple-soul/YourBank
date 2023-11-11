@@ -19,7 +19,14 @@ body{
   font-family: 'Lexend', sans-serif;
 }
 
+
+.left-container {
+  position: relative;
+  left: 10rem;
+}
+
 .text {
   color: lawngreen !important;
 
 }
+
