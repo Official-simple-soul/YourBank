@@ -8,8 +8,10 @@ Secondary-color {
   color: white;
   background: #CAFF33;
 }
-
+/* Font styling */
 body{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 600;
   background-color: #1A1A1A;
 }
 
@@ -194,6 +196,49 @@ body{
   border-bottom-style: dashed !important;
 }
 /* end of section-2 */
+
+/* Section-3 */
+.box-btnl{
+  background-color: #262626; 
+}
+.btn-role{
+  color: white;
+  border-color: #1C1C1C !important;
+  border:1px solid; 
+}
+.btn-role:hover{
+  color: #CAFF33;
+  background-color: #1A1A1A;
+}
+
+/* end of section-3 */
+
+/* Section-5 */
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  width: 50% !important;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  width: 10%;
+  height: 10%;
+}
+/* end of section-5 */
+
+/* Section-6 */
+.bx{
+  background-color: #262626;
+}
+/* end of section-6 */
 
 /* Footer */
 .footer-link {
