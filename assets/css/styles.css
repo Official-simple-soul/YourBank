@@ -64,7 +64,7 @@ body{
 /* left-cont */
   .left-cont{
     background: url(../icons/home_icon/multi_arrows.png);
-    background-position-x: calc(14.2rem);
+    background-position-x: calc(16.5rem);
     background-position-y: calc(4.9rem);
     background-size: calc(15rem);
     background-repeat: no-repeat;
@@ -72,13 +72,15 @@ body{
   .details{
     border: solid 0.87px;
     border-radius: 10.4px;
-    width: 80%;
+    width: 85%;
     background-color: #1A1A1A;
   }
   .top-cont{
-    position: relative;
-    top: 2rem;
-    left: -2.5rem;
+    margin-bottom: -24px;
+    margin-left: -42px;
+    position: sticky;
+    /* top: 2rem;
+    left: -2.5rem; */
     background-color:#22251B;
     width: fit-content;
   }
@@ -94,6 +96,42 @@ body{
     color: #E4E4E7;
     font-size: 12px;
   }
+  .tx-n-bd{
+    border-color: #262626 !important;
+    background-color: #1A1A1A;
+    position: relative;
+  }
+  .t-trn{
+    color: #E4E4E7; 
+  }
+  .txt-jk{
+    font-size: 18px;
+  }
+  .t-n{
+    font-size: 18px;
+  }
+  .mt-n1 {
+    margin-top: -6.5% !important;
+  }
+  
+  .bxb{
+    border-color: #262626 !important;
+  }
+  .btn-ex{
+    color: #D1FF4D;
+    background-color: #22251B;
+  }
+  .btn-ex:hover{
+    color: white;
+    background-color: #22251B;
+  }
+  .curr-bd{
+    background-color: #22251B;
+  }
+  .curr{
+    background-color: #1A1A1A;
+  }
+
 
 
 /* end of left-cont */
