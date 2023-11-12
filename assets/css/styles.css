@@ -1,3 +1,7 @@
+*{
+  font-family: 'Lexend', sans-serif;
+}
+
 /* Global styling */
 .about-bg-col {
   background: #5c3838;
@@ -12,11 +16,6 @@
   color: #CAFF33;
 }
 
-*{
-  font-family: 'Lexend', sans-serif;
-}
-
-
 .left-container {
   position: relative;
   left: 10rem;
@@ -27,12 +26,26 @@
 
 }
 
-/* footer */
+.protect-you {
+  background-color:#1C1C1C;
+}
+
+/* Footer */
+.footer-link {
+  color: white;
+  text-decoration: none;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+.footer-link:hover{
+  color: white;
+  background-color: #262626;
+}
 .line {
   border-right: 1px solid #B3B3B3;
 }
 .line-text-col {
-   color: #B3B3B3;
+  color: #B3B3B3;
 }
 
 @media  (min-width: 320px) and (max-width: 430px) {
@@ -41,4 +54,13 @@
     bottom: 1.5rem;
   }
  
+  .footer-border-col {
+    border: 1px solid #262626;
+  }
+  .social-bg-col {
+    background: #CAFF33;
+    height: 43px;
+    width: 43px;
+  }
+
 }
