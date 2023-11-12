@@ -1,15 +1,82 @@
-/* Global styling */
-
-Primary-color {
-  color: #CAFF33;
-  background: #1A1A1A;
+*{
+  font-family: 'Lexend', sans-serif;
 }
-Secondary-color {
-  color: white;
+
+
+/* Global styling */
+.about-bg-col {
+  background: #5c3838;
+}
+.nav-border-col {
+  border: 1px solid #262626;
+}
+.login-bg-col {
   background: #CAFF33;
 }
+.login-text-col {
 
+Primary-color {
+
+  color: #CAFF33;
+}
+
+
+.left-container {
+  position: relative;
+  left: 10rem;
+}
+
+.text {
+  color: #CAFF33 !important;
+
+}
+
+.protect-you {
+  background-color:#1C1C1C;
+}
+
+/* Footer */
+.footer-link {
+
+Secondary-color {
+
+  color: white;
+  text-decoration: none;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+
+.footer-link:hover{
+  color: white;
+  background-color: #262626;
+}
+.line {
+  border-right: 1px solid #B3B3B3;
+}
+.line-text-col {
+  color: #B3B3B3;
+}
+
+@media  (min-width: 320px) and (max-width: 430px) {
+  .social {
+    position: relative;
+    bottom: 1.5rem;
+  }
+ 
+  .footer-border-col {
+    border: 1px solid #262626;
+  }
+  .social-bg-col {
+    background: #CAFF33;
+    height: 43px;
+    width: 43px;
+  }
+
+
+/* Font styling */
 body{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 600;
   background-color: #1A1A1A;
 }
 
@@ -218,6 +285,50 @@ body{
 }
 
 /* end of section-2 */
+
+/* Section-3 */
+.box-btnl{
+  background-color: #262626; 
+}
+.btn-role{
+  color: white;
+  border-color: #1C1C1C !important;
+  border:1px solid; 
+}
+.btn-role:hover{
+  color: #CAFF33;
+  background-color: #1A1A1A;
+
+}
+
+/* end of section-3 */
+
+/* Section-5 */
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  width: 50% !important;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  width: 10%;
+  height: 10%;
+}
+/* end of section-5 */
+
+/* Section-6 */
+.bx{
+  background-color: #262626;
+}
+/* end of section-6 */
 
 /* Footer */
 .footer-link {
