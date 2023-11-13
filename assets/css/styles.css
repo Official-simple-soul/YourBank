@@ -1,18 +1,423 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: #333333;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    background-color: black;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    /* display: flex; */
+   
+    
+}
+.login{
+    background-image: url(black\ bg-2.jpg);
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    background-color:black;
+    border-radius: 10px;
+    border: 0.05px dotted #333333;
+   /* position: relative; */
+
+}
+.login h1 {
+    color: #CAFF33;
+    text-align: center;
+    margin-bottom: 10px;
+   /* position: absolute; */
+   top: 0;
+}
+.login p{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login h6{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.login h5{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+.login h5::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 0.11px;
+    background: white;
+    position: absolute;
+    left: 250px;
+    top: 50%;
+}
+.login h5::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 0.11px;
+    background: white;
+    position: absolute;
+    right: 250px;
+    top: 50%;
+}
+.img-d{
+    display: flex;
+    align-items: flex-end;
+   justify-content: flex-end;
+}
+input{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    justify-content: center;
+    /* margin-left: 50px; */
+    background-color: black;
+    border: 1px solid #333333;
+    border-radius: 20px;
+}
+.input-details{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.btn-design{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+*{
+  font-family: 'Lexend', sans-serif;
+}
+
+
 /* Global styling */
 
-Primary color {
+Primary-color {
   color: #CAFF33;
   background: #1A1A1A;
 }
-Secondary color {
+Secondary-color {
+
+
+  color: white;
+  text-decoration: none;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+/* input[type="submit"]{
+    background-color: #CAFF33;
+} */
+
+
+ input[type="submit"]{
+    border: none;
+    outline: none;
+    color:black;
+    height: 30px;
+    border-radius: 20px;
+    transition: 0.2s;
+    background-color: #CAFF33;
+}
+
+.down-button input[type="submit"]{
+    background-color: #333333;
+    color: white;
+}
+.icon{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    /* background: rgba(#CAFF33, #CAFF33, #CAFF33, #CAFF33); */
+    background:  linear-gradient(180deg, #c9ff3344 0%, black  100%, black 200%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-design{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+::placeholder{
+  padding-left: 10px;
+  font-size: 10px;
+}
+.testimonial{
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: aqua; */
+}
+.testimonial h1{
+    color: white;
+}
+.testimonial p{
+    color: white;
+}
+.cards-design{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+.card-1{
+    width: 300px;
+    height: 250px;
+    background-color: aqua;
+  }
+.footer-link:hover{
+
   color: white;
   background: #CAFF33;
 }
-
+/* Font styling */
 body{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 600;
+  background-color: #1A1A1A;
+}
+
+/* Navbar */
+.navbar {
+  border-color: #262626 !important;
+  background-color: #1A1A1A;
+}
+.border-btn-col{
+  background-color: #CAFF33;
+}
+.nav-link {
+  color: white;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+.nav-link:hover{
+  color: white;
+  background-color: #262626;
+}
+
+.login {
+  color: black;
+  background-color: #CAFF33;
+}
+.login:hover{
+  color: black;
+  background-color: #ffff;
+}
+/* End of Navbar */
+
+/* Hero */
+/* Right-cont */
+.txt-v{
+  background-color: #262626;
+}
+.fin{
+  color: #CAFF33;
+}
+.txt-w{
+  color: #E4E4E7;
+}
+.btn-open{
+  color: #1C1C1C;
+  background-color: #CAFF33;
+}
+.btn-open:hover{
+  background-color: white;
+}
+/* end or Right-cont */
+
+/* left-cont */
+  .left-cont{
+    background: url(../icons/home_icon/multi_arrows.png);
+    background-position-x: calc(16.5rem);
+    background-position-y: calc(4.9rem);
+    background-size: calc(15rem);
+    background-repeat: no-repeat;
+  }
+
+  .details{
+    border: solid 0.87px;
+    border-radius: 10.4px;
+    width: 85%;
+    background-color: #1A1A1A;
+  }
+
+  .top-cont{
+    margin-bottom: -24px;
+    margin-left: -42px;
+    position: sticky;
+    /* top: 2rem;
+    left: -2.5rem; */
+    background-color:#22251B;
+    width: fit-content;
+  }
+
+  .c-t{
+    background-color: #CAFF33;
+    height: 33px;
+    width: 33px;
+  }
+
+  .n-mo{
+    font-size: 15px;
+  }
+
+  .m-inc{
+    color: #E4E4E7;
+    font-size: 12px;
+  }
+
+  .tx-n-bd{
+    border-color: #262626 !important;
+    background-color: #1A1A1A;
+    position: relative;
+  }
+
+  .t-trn{
+    color: #E4E4E7; 
+  }
+
+  .txt-jk{
+    font-size: 18px;
+  }
+
+  .t-n{
+    font-size: 18px;
+  }
+
+  .mt-n1 {
+    margin-top: -6.5% !important;
+  }
+ 
+  .bxb{
+    border-color: #262626 !important;
+  }
+
+  .btn-ex{
+    color: #D1FF4D;
+    background-color: #22251B;
+  }
+
+  .btn-ex:hover{
+    color: white;
+    background-color: #22251B;
+  }
+
+  .curr-bd{
+    background-color: #22251B;
+  }
+
+  .curr{
+    background-color: #1A1A1A;
+  }
+  /* Tablet and mobile view */
+  @media (min-width: 320px) and (max-width: 769px) {
+    .left-cont{
+      background-position-x: calc(13.5rem);
+      background-position-y: calc(2.9rem);
+      background-size: calc(10rem);
+    }
+    .details{
+      width: 95%;
+    }   
+    .top-cont{
+      margin-left: -6px;
+    }   
+  }
+/* end of left-cont */
+
+/* Section-1 */
+.box{
+  border-color: #262626 !important;
+}
+
+.btn-cont{
+  background-color:#1A1A1A; 
+  border:1px solid; 
+  border-color: #262626;
+}
+
+.btn-cont-b{
+  background: none;
+}
+
+.btn-cont-b:hover{
+  background-color: #CAFF33;
+  color: black;
+}
+
+/* end of section-1 */
+
+/* Section-2 */
+.l-cont{
+  background-color: #1C1C1C;
+}
+
+.bxr{
+  background-color:#1A1A1A; 
+  border:1px solid; 
+  border-color: #262626;
+}
+
+.btn-learn{
+  background-color: #262626;
+  border-color: #1C1C1C;
+}
+
+.btn-learn:hover{
+  background-color: #262626;
+  border-color: #4b4242;
+}
+
+.bd-r{
+  border-width: 2px !important;
+  border-color: #262626 !important;
+  border-right-style: dashed !important;
+  border-bottom-style: dashed !important;
+}
+
+.bdx{
+  border-width: 2px !important;
+  border-color: #262626 !important;
+  border-bottom-style: dashed !important;
+}
+
+/* end of section-2 */
+
+/* Section-3 */
+.box-btnl{
+  background-color: #262626; 
+}
+.btn-role{
+  color: white;
+  border-color: #1C1C1C !important;
+  border:1px solid; 
+}
+.btn-role:hover{
+  color: #CAFF33;
   background-color: #1A1A1A;
   font-family: 'Lexend', sans-serif;
 }
+
 
 /* About us page */
 /* Nav bar */
@@ -50,21 +455,51 @@ body{
 
 .welcome-image {
   width: 800px;
+
+/* end of section-3 */
+
+/* Section-6 */
+.bx{
+  background-color: #262626;
+}
+/* end of section-6 */
+
+/* Footer */
+.footer-link {
+  color: white;
+  text-decoration: none;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+
+.footer-link:hover{
+  color: white;
+  background-color: #262626;
+
 }
 
 .line {
   border-right: 1px solid #B3B3B3;
 }
+
 .line-text-col {
    color: #B3B3B3;
 }
 
 /* About Media query */
+
+
+.line-text-col {
+  color: #B3B3B3;
+}
+
+
 @media  (min-width: 320px) and (max-width: 430px) {
   .social {
     position: relative;
     bottom: 1.5rem;
   }
+
   .welcome-text {
     border-radius: 10px 10px 10px 10px;
     position: relative;
@@ -98,3 +533,16 @@ body{
     width: 100%;
   }
 }
+
+}
+
+.footer-border-col {
+  border: 1px solid #262626;
+}
+
+.social-bg-col {
+  background: #CAFF33;
+  height: 43px;
+  width: 43px;
+}
+
