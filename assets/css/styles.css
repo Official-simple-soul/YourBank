@@ -415,7 +415,46 @@ body{
 .btn-role:hover{
   color: #CAFF33;
   background-color: #1A1A1A;
+  font-family: 'Lexend', sans-serif;
 }
+
+
+/* About us page */
+/* Nav bar */
+.nav-bg-col {
+  background-color: #262626 ;
+}
+
+.about-bg-col {
+  background: #5c3838;
+}
+.nav-border-col {
+  border: 1px solid #262626;
+}
+.login-bg-col {
+  background: #CAFF33;
+}
+.login-text-col {
+  color: #CAFF33;
+}
+
+
+.welcome-section-bg-col {
+  background-color: #1C1C1C;
+}
+.welcome-text-bg-col {
+  background-color: #1A1A1A;
+}
+.welcome-text {
+  border-radius: 10px 10px 80px 10px;
+  position: relative;
+  left: 12rem;
+  height: 530px;
+  width: 100%;
+}
+
+.welcome-image {
+  width: 800px;
 
 /* end of section-3 */
 
@@ -436,6 +475,7 @@ body{
 .footer-link:hover{
   color: white;
   background-color: #262626;
+
 }
 
 .line {
@@ -443,14 +483,57 @@ body{
 }
 
 .line-text-col {
+   color: #B3B3B3;
+}
+
+/* About Media query */
+
+
+.line-text-col {
   color: #B3B3B3;
 }
+
 
 @media  (min-width: 320px) and (max-width: 430px) {
   .social {
     position: relative;
     bottom: 1.5rem;
   }
+
+  .welcome-text {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    left: 0rem;
+    bottom: 1.5rem;
+    height: 530px;
+    width: 100%;
+  }
+  .welcome-image {
+    width: 100%;
+  }
+}
+@media  (min-width: 768px) and (max-width: 1024px) {
+  
+  .welcome-text {
+    border-radius: 10px 10px 80px 10px;
+    position: relative;
+    left: 0rem;
+    height: 530px;
+    width: 100%;
+  }
+  .welcome-image {
+    width: 100%;
+  }
+  .welcome-text {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    left: 0rem;
+    bottom: 2.5rem;
+    height: 530px;
+    width: 100%;
+  }
+}
+
 }
 
 .footer-border-col {
@@ -462,3 +545,4 @@ body{
   height: 43px;
   width: 43px;
 }
+
