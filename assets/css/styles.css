@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;500&display=swap');
 *{
     padding: 0;
@@ -108,41 +109,13 @@ input{
 
 
 /* Global styling */
-.about-bg-col {
-  background: #5c3838;
-}
-.nav-border-col {
-  border: 1px solid #262626;
-}
-.login-bg-col {
-  background: #CAFF33;
-}
-.login-text-col {
 
 Primary-color {
-
   color: #CAFF33;
+  background: #1A1A1A;
 }
-
-
-.left-container {
-  position: relative;
-  left: 10rem;
-}
-
-.text {
-  color: #CAFF33 !important;
-
-}
-
-.protect-you {
-  background-color:#1C1C1C;
-}
-
-/* Footer */
-.footer-link {
-
 Secondary-color {
+
 
   color: white;
   text-decoration: none;
@@ -213,32 +186,10 @@ Secondary-color {
     background-color: aqua;
   }
 .footer-link:hover{
+
   color: white;
-  background-color: #262626;
+  background: #CAFF33;
 }
-.line {
-  border-right: 1px solid #B3B3B3;
-}
-.line-text-col {
-  color: #B3B3B3;
-}
-
-@media  (min-width: 320px) and (max-width: 430px) {
-  .social {
-    position: relative;
-    bottom: 1.5rem;
-  }
- 
-  .footer-border-col {
-    border: 1px solid #262626;
-  }
-  .social-bg-col {
-    background: #CAFF33;
-    height: 43px;
-    width: 43px;
-  }
-
-
 /* Font styling */
 body{
   font-family: 'Lexend Deca', sans-serif;
@@ -464,7 +415,6 @@ body{
 .btn-role:hover{
   color: #CAFF33;
   background-color: #1A1A1A;
-
 }
 
 /* end of section-3 */
