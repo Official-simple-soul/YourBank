@@ -1,199 +1,11 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;500&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-section{
-    background-color: #333333;
-    width: 100%;
-    height: 100vh;
-}
-.container{
-    background-color: black;
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    /* display: flex; */
-   
-    
-}
-.login{
-    background-image: url(black\ bg-2.jpg);
-    height: 80%;
-    width: 60%;
-    margin: auto;
-    background-color:black;
-    border-radius: 10px;
-    border: 0.05px dotted #333333;
-   /* position: relative; */
 
-}
-.login h1 {
-    color: #CAFF33;
-    text-align: center;
-    margin-bottom: 10px;
-   /* position: absolute; */
-   top: 0;
-}
-.login p{
-    color: white;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.login h6{
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-.login h5{
-    color: white;
-    text-align: center;
-    font-size: 10px;
-    position: relative;
-    margin-top: 10px;
-}
-.login h5::before{
-    content: "";
-    display: block;
-    width: 120px;
-    height: 0.11px;
-    background: white;
-    position: absolute;
-    left: 250px;
-    top: 50%;
-}
-.login h5::after{
-    content: "";
-    display: block;
-    width: 120px;
-    height: 0.11px;
-    background: white;
-    position: absolute;
-    right: 250px;
-    top: 50%;
-}
-.img-d{
-    display: flex;
-    align-items: flex-end;
-   justify-content: flex-end;
-}
-input{
-    display: flex;
-    width: 300px;
-    height: 35px;
-    justify-content: center;
-    /* margin-left: 50px; */
-    background-color: black;
-    border: 1px solid #333333;
-    border-radius: 20px;
-}
-.input-details{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    
-}
-.btn-design{
-    display: flex;
-    row-gap: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-*{
-  font-family: 'Lexend', sans-serif;
-}
-
-
-/* Global styling */
-
-Primary-color {
-  color: #CAFF33;
-  background: #1A1A1A;
-}
-Secondary-color {
-
-
-  color: white;
-  text-decoration: none;
-  border-radius: 82px;
-  padding: 5px 15px !important;
-}
-/* input[type="submit"]{
-    background-color: #CAFF33;
-} */
-
-
- input[type="submit"]{
-    border: none;
-    outline: none;
-    color:black;
-    height: 30px;
-    border-radius: 20px;
-    transition: 0.2s;
-    background-color: #CAFF33;
-}
-
-.down-button input[type="submit"]{
-    background-color: #333333;
-    color: white;
-}
-.icon{
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    /* background: rgba(#CAFF33, #CAFF33, #CAFF33, #CAFF33); */
-    background:  linear-gradient(180deg, #c9ff3344 0%, black  100%, black 200%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icon-design{
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-::placeholder{
-  padding-left: 10px;
-  font-size: 10px;
-}
-.testimonial{
-    width: 100%;
-    /* height: 100%; */
-    /* background-color: aqua; */
-}
-.testimonial h1{
-    color: white;
-}
-.testimonial p{
-    color: white;
-}
-.cards-design{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 80%;
-    margin: auto;
-}
-.card-1{
-    width: 300px;
-    height: 250px;
-    background-color: aqua;
-  }
-.footer-link:hover{
-
-  color: white;
-  background: #CAFF33;
-}
 /* Font styling */
 body{
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight: 600;
+  /* font-family: 'Lexend Deca', sans-serif;
+  font-weight: 100; */
   background-color: #1A1A1A;
 }
 
@@ -215,11 +27,11 @@ body{
   background-color: #262626;
 }
 
-.login {
+.signup {
   color: black;
   background-color: #CAFF33;
 }
-.login:hover{
+.signup:hover{
   color: black;
   background-color: #ffff;
 }
@@ -417,45 +229,6 @@ body{
   background-color: #1A1A1A;
   font-family: 'Lexend', sans-serif;
 }
-
-
-/* About us page */
-/* Nav bar */
-.nav-bg-col {
-  background-color: #262626 ;
-}
-
-.about-bg-col {
-  background: #5c3838;
-}
-.nav-border-col {
-  border: 1px solid #262626;
-}
-.login-bg-col {
-  background: #CAFF33;
-}
-.login-text-col {
-  color: #CAFF33;
-}
-
-
-.welcome-section-bg-col {
-  background-color: #1C1C1C;
-}
-.welcome-text-bg-col {
-  background-color: #1A1A1A;
-}
-.welcome-text {
-  border-radius: 10px 10px 80px 10px;
-  position: relative;
-  left: 12rem;
-  height: 530px;
-  width: 100%;
-}
-
-.welcome-image {
-  width: 800px;
-
 /* end of section-3 */
 
 /* Section-6 */
@@ -464,85 +237,37 @@ body{
 }
 /* end of section-6 */
 
-/* Footer */
+ /* Footer */
+ footer {
+  background: #1C1C1C !important;
+ }
 .footer-link {
   color: white;
   text-decoration: none;
   border-radius: 82px;
   padding: 5px 15px !important;
 }
-
 .footer-link:hover{
   color: white;
   background-color: #262626;
-
 }
-
 .line {
   border-right: 1px solid #B3B3B3;
 }
-
-.line-text-col {
-   color: #B3B3B3;
-}
-
-/* About Media query */
-
-
 .line-text-col {
   color: #B3B3B3;
 }
-
-
 @media  (min-width: 320px) and (max-width: 430px) {
   .social {
     position: relative;
     bottom: 1.5rem;
   }
-
-  .welcome-text {
-    border-radius: 10px 10px 10px 10px;
-    position: relative;
-    left: 0rem;
-    bottom: 1.5rem;
-    height: 530px;
-    width: 100%;
-  }
-  .welcome-image {
-    width: 100%;
-  }
 }
-@media  (min-width: 768px) and (max-width: 1024px) {
-  
-  .welcome-text {
-    border-radius: 10px 10px 80px 10px;
-    position: relative;
-    left: 0rem;
-    height: 530px;
-    width: 100%;
-  }
-  .welcome-image {
-    width: 100%;
-  }
-  .welcome-text {
-    border-radius: 10px 10px 10px 10px;
-    position: relative;
-    left: 0rem;
-    bottom: 2.5rem;
-    height: 530px;
-    width: 100%;
-  }
-}
-
-}
-
 .footer-border-col {
   border: 1px solid #262626;
 }
-
 .social-bg-col {
   background: #CAFF33;
   height: 43px;
   width: 43px;
 }
-
