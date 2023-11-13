@@ -25,6 +25,13 @@
 }
 /* End of Navbar */
 
+.text {
+  color: #CAFF33 !important;
+
+}
+.protect-you {
+  background-color:#1C1C1C;
+}
  /* Footer */
  footer {
   background: #1C1C1C !important;
