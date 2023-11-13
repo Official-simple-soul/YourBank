@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css	">
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/signup-style.css">
     <!-- Swiper Js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- boxicon icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- swipper -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Font Icon -->
@@ -33,7 +38,7 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
           <ul class="navbar-nav mt-2 mt-lg-0 mb-2 mb-lg-0">
             <li class="nav-item" data-aos="zoom-in">
-              <a class="nav-link text-white" style="background-color: #262626;" href="./index.html">Home</a>
+              <a class="nav-link text-white" style="background-color: #262626;" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item" data-aos="zoom-in">
               <a class="nav-link" href="./careers.html">Careers</a>
@@ -390,6 +395,65 @@
         </div>
       </div>
     </section>
+    <!-- Section-5 -->
+    <section id="bold">
+      <div class="container-sm py-5">
+        <div class="pb-5 mb-4 " data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+          <h2 id="Testimonials">
+            Our <span class="c">Testimonials</span>
+          </h2>
+          <div class="row justify-content-between " data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            <p class="col-lg-6 col-md-6 col-sm-12 my-3 fs-6" id="Testimonials">Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus pellentesque elit.
+              Pellentesque eget ut imperdiet nulla penatibus. Nascetur viverra arcu sed amet cursus purus.
+            </p>
+            <div class=" d-flex rounded-pill border-2 border-dark col-lg-4 col-md-4 col-sm-12 selection" >
+                <button type="submit" class="btn b w-50 rounded-pill border border-dark pills p-2">For Individuals</button>
+                <button type="submit" class="btn  w-50 rounded-pill pills p-2">For Businesses</button>
+            </div>
+          </div>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper text-body-white">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+            <!-- Slides -->
+            <div class="swiper-slide border border-dark rounded-4" data-swiper-autoplay="2000">  
+              <div class="text-center gy-4">
+                <div class="slash"><img src="./images/Icon.svg" alt="" srcset=""></div>
+                <p class="py-4 mx-2">YourBank has been my trusted financial partner for years. thier personalized service and innovative 
+                  digital banking solutions have made managing my finances a breeze
+                </p>
+                <h5  class="c">Sara T</h5>
+              </div>
+            </div>
+            <div class="swiper-slide border border-dark rounded-4" data-swiper-autoplay="2000">
+              <div class="text-center gy-4">
+                <div class="slash"><img src="./images/Icon.svg" alt="" srcset=""></div>
+                <p class="py-4 mx-2">I recently started my own business, and YourBank has been instrumental in helping 
+                    me set up my business accounts and secure the financing I needed.
+                </p>
+                <h5  class="c">John D</h5>
+              </div>
+            </div>
+            <div class="swiper-slide border border-dark rounded-4" data-swiper-autoplay="2000">
+              <div class="text-center ">
+                <div class="slash"><img src="./images/Icon.svg" alt="" srcset=""></div>
+                <p class="py-4 mx-2">
+                    I love the convience of YourBank's banking app. It allows me to stay on my finances and make transaction on the app. 
+                    The app is user-friendly and secure.
+                </p>
+                <h5  class="c">Emily G</h5>
+              </div>
+            </div> 
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swipernav d-flex">
+            <div class="  rounded-5"><i class='button-prev bx bx-left-arrow-alt' style='color:#caff33'  ></i></div>
+            <div class="  rounded-5"><i class='button-next bx bx-right-arrow-alt'></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Section-6 -->
     <section class="mt-5">
       <div class="container">
@@ -481,7 +545,9 @@
     <!-- Js Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Swiper Js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <!-- swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./javascript/app.js"></script>
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
