@@ -4,6 +4,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Navbar */
+.navbar {
+  border-color: #262626 !important;
+  background-color: #1A1A1A;
+}
+.border-btn-col{
+  background-color: #CAFF33;
+}
+.nav-link {
+  color: white;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+.nav-link:hover{
+  color: white;
+  background-color: #262626;
+}
+
+.login {
+  color: black;
+  background-color: #CAFF33;
+}
+.login:hover{
+  color: black;
+  background-color: #ffff;
+}
+/* End of Navbar */
 section{
     background-color: #333333;
     width: 100%;
@@ -163,4 +190,59 @@ input{
     width: 300px;
     height: 250px;
     background-color: aqua;
+}
+/* Footer */
+.footer-link {
+  color: white;
+  text-decoration: none;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+
+.footer-link:hover{
+  color: white;
+  background-color: #262626;
+}
+
+.line {
+  border-right: 1px solid #B3B3B3;
+}
+
+.line-text-col {
+  color: #B3B3B3;
+}
+
+@media  (min-width: 320px) and (max-width: 430px) {
+  .social {
+    position: relative;
+    bottom: 1.5rem;
+  }
+}
+
+.footer-border-col {
+  border: 1px solid #262626;
+}
+
+.social-bg-col {
+  background: #CAFF33;
+  height: 43px;
+  width: 43px;
+}
+
+.C-p {
+  font-size: 14px;
+}
+
+span h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.p-text {
+  font-size: 13px;
+}
+
+.pix {
+  width: 25px;
+  height: 25px;
 }
