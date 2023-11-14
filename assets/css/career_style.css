@@ -27,12 +27,10 @@ body {
     background-color: #262626;
   }
   
-  .login {
-    color: black;
-    background-color: #CAFF33;
-  }
-  .login:hover{
-    color: black
+  .login:hover, 
+  .signup:hover{
+    color: black !important;
+    background-color: #CAFF33 !important;
   }
 
 

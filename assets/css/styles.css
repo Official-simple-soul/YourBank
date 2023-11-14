@@ -1,11 +1,11 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;500&display=swap'); */
 
 /* Font styling */
 body{
-  /* font-family: 'Lexend Deca', sans-serif;
-  font-weight: 100; */
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight:600;
   background-color: #1A1A1A;
 }
 
@@ -26,14 +26,10 @@ body{
   color: white;
   background-color: #262626;
 }
-
-.signup {
-  color: black;
-  background-color: #CAFF33;
-}
+.login:hover, 
 .signup:hover{
-  color: black;
-  background-color: #ffff;
+  color: black !important;
+  background-color: #CAFF33 !important;
 }
 /* End of Navbar */
 
@@ -230,6 +226,86 @@ body{
   font-family: 'Lexend', sans-serif;
 }
 /* end of section-3 */
+
+/* Section-5 */
+#bold{
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.c{
+color: #CAFF33;
+}
+.b {
+background-color: #CAFF33 !important;
+}
+
+.selection{
+background-color: #1C1C1C;
+border: 1px solid #262626;
+padding: 12px;
+height: 75px;
+}
+.slash::before{
+content: "";
+display: block;
+width: 90px;
+height: 0.11px;
+background: #262626;
+position: absolute;
+left: 11%;
+top: 12%;
+}
+.slash::after{
+content: "";
+display: block;
+width: 90px;
+height: 0.11px;
+background: #262626;
+position: absolute;
+right: 11%;
+top: 12%;
+}
+.swiper-slide{
+height: 350px !important;
+}
+
+@media only screen and  (max-width: 1000px) {
+#bold {
+  padding: 0px 20px;
+}
+
+.background{
+width: 100%;
+margin: auto;
+padding: 30px 20px ;
+}
+
+#Testimonials{
+text-align: center;
+width: 100%;
+}
+.swiper-slide{
+  border: 1px solid #1C1C1C;
+width: 95% !important;
+}
+.swipernav{
+  justify-content: center;
+  position: relative;
+  bottom: -70%;
+  margin: 30px 0px;
+  gap: 20px;
+}
+.swipernav>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0.00) 100%);
+  width: 50px !important;
+  height: 50px !important;
+}
+}
+/* end of section-5 */
 
 /* Section-6 */
 .bx{

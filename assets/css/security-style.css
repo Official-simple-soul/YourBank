@@ -1,6 +1,6 @@
-/* body{
+body{
   background: #1A1A1A !important;
- } */
+ }
 /* Navbar */
 .navbar {
   border: 1px solid #262626;
@@ -19,19 +19,34 @@
   background-color: #262626;
 }
 
-.login {
+.login:hover, 
+.signup:hover{
   color: black !important;
   background-color: #CAFF33 !important;
 }
 /* End of Navbar */
 
+.box-c {
+  background: #1C1C1C;
+}
+
+.left-text {
+  background-color: #1A1A1A;
+}
+
 .text {
   color: #CAFF33 !important;
 
 }
+
 .protect-you {
   background-color:#1C1C1C;
 }
+ 
+.cont-box {
+  background-color: #262626;
+}
+
  /* Footer */
  footer {
   background: #1C1C1C !important;
