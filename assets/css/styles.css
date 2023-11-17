@@ -1,82 +1,14 @@
-*{
-  font-family: 'Lexend', sans-serif;
-}
 
 
-/* Global styling */
-.about-bg-col {
-  background: #5c3838;
-}
-.nav-border-col {
-  border: 1px solid #262626;
-}
-.login-bg-col {
-  background: #CAFF33;
-}
-.login-text-col {
-
-Primary-color {
-
-  color: #CAFF33;
-}
-
-
-.left-container {
-  position: relative;
-  left: 10rem;
-}
-
-.text {
-  color: #CAFF33 !important;
-
-}
-
-.protect-you {
-  background-color:#1C1C1C;
-}
-
-/* Footer */
-.footer-link {
-
-Secondary-color {
-
-  color: white;
-  text-decoration: none;
-  border-radius: 82px;
-  padding: 5px 15px !important;
-}
-
-.footer-link:hover{
-  color: white;
-  background-color: #262626;
-}
-.line {
-  border-right: 1px solid #B3B3B3;
-}
-.line-text-col {
-  color: #B3B3B3;
-}
-
-@media  (min-width: 320px) and (max-width: 430px) {
-  .social {
-    position: relative;
-    bottom: 1.5rem;
-  }
- 
-  .footer-border-col {
-    border: 1px solid #262626;
-  }
-  .social-bg-col {
-    background: #CAFF33;
-    height: 43px;
-    width: 43px;
-  }
-
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;500&display=swap'); */
 
 /* Font styling */
-body{
+*{
   font-family: 'Lexend Deca', sans-serif;
-  font-weight: 600;
+  font-weight:600;
+}
+
+body{
   background-color: #1A1A1A;
 }
 
@@ -97,14 +29,10 @@ body{
   color: white;
   background-color: #262626;
 }
-
-.login {
-  color: black;
-  background-color: #CAFF33;
-}
-.login:hover{
-  color: black;
-  background-color: #ffff;
+.login:hover, 
+.signup:hover{
+  color: black !important;
+  background-color: #CAFF33 !important;
 }
 /* End of Navbar */
 
@@ -298,29 +226,87 @@ body{
 .btn-role:hover{
   color: #CAFF33;
   background-color: #1A1A1A;
-
+  font-family: 'Lexend', sans-serif;
 }
-
 /* end of section-3 */
 
 /* Section-5 */
-swiper-container {
-  width: 100%;
-  height: 100%;
+#bold{
+  background-color: #1A1A1A;
+  color: white;
 }
 
-swiper-slide {
-  width: 50% !important;
-  text-align: center;
-  font-size: 18px;
-  display: flex;
+.c{
+color: #CAFF33;
+}
+.b {
+background-color: #CAFF33 !important;
+}
+
+.selection{
+background-color: #1C1C1C;
+border: 1px solid #262626;
+padding: 12px;
+height: 75px;
+}
+.slash::before{
+content: "";
+display: block;
+width: 90px;
+height: 0.11px;
+background: #262626;
+position: absolute;
+left: 11%;
+top: 12%;
+}
+.slash::after{
+content: "";
+display: block;
+width: 90px;
+height: 0.11px;
+background: #262626;
+position: absolute;
+right: 11%;
+top: 12%;
+}
+.swiper-slide{
+height: 350px !important;
+}
+
+@media only screen and  (max-width: 1000px) {
+#bold {
+  padding: 0px 20px;
+}
+
+.background{
+width: 100%;
+margin: auto;
+padding: 30px 20px ;
+}
+
+#Testimonials{
+text-align: center;
+width: 100%;
+}
+.swiper-slide{
+  border: 1px solid #1C1C1C;
+width: 95% !important;
+}
+.swipernav{
   justify-content: center;
-  align-items: center;
+  position: relative;
+  bottom: -70%;
+  margin: 30px 0px;
+  gap: 20px;
 }
-
-swiper-slide img {
-  width: 10%;
-  height: 10%;
+.swipernav>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0.00) 100%);
+  width: 50px !important;
+  height: 50px !important;
+}
 }
 /* end of section-5 */
 
@@ -330,58 +316,37 @@ swiper-slide img {
 }
 /* end of section-6 */
 
-/* Footer */
+ /* Footer */
+ footer {
+  background: #1C1C1C !important;
+ }
 .footer-link {
   color: white;
   text-decoration: none;
   border-radius: 82px;
   padding: 5px 15px !important;
 }
-
 .footer-link:hover{
   color: white;
   background-color: #262626;
 }
-
 .line {
   border-right: 1px solid #B3B3B3;
 }
-
 .line-text-col {
   color: #B3B3B3;
 }
-
 @media  (min-width: 320px) and (max-width: 430px) {
   .social {
     position: relative;
     bottom: 1.5rem;
   }
 }
-
 .footer-border-col {
   border: 1px solid #262626;
 }
-
 .social-bg-col {
   background: #CAFF33;
   height: 43px;
   width: 43px;
-}
-
-.C-p {
-  font-size: 14px;
-}
-
-span h5 {
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.p-text {
-  font-size: 13px;
-}
-
-.pix {
-  width: 25px;
-  height: 25px;
 }

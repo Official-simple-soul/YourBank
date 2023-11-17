@@ -27,12 +27,10 @@ body {
     background-color: #262626;
   }
   
-  .login {
-    color: black;
-    background-color: #CAFF33;
-  }
-  .login:hover{
-    color: black
+  .login:hover, 
+  .signup:hover{
+    color: black !important;
+    background-color: #CAFF33 !important;
   }
 
 
@@ -199,44 +197,41 @@ border-radius: 80px;
 }
 
 
-/* Footer */
-
+ /* Footer */
+ footer {
+  background: #1C1C1C !important;
+ }
 .footer-link {
-    color: white;
-    text-decoration: none;
-    border-radius: 82px;
-    padding: 5px 15px !important;
+  color: white;
+  text-decoration: none;
+  border-radius: 82px;
+  padding: 5px 15px !important;
+}
+.footer-link:hover{
+  color: white;
+  background-color: #262626;
+}
+.line {
+  border-right: 1px solid #B3B3B3;
+}
+.line-text-col {
+  color: #B3B3B3;
+}
+@media  (min-width: 320px) and (max-width: 430px) {
+  .social {
+    position: relative;
+    bottom: 1.5rem;
   }
-  .footer-link:hover{
-    color: white;
-    background-color: #262626;
-  }
-  .line {
-    border-right: 1px solid #B3B3B3;
-  }
-  .line-text-col {
-    color: #B3B3B3;
-  }
-
-
-  .footer-border-col {
-    border: 1px solid #262626;
-  }
-  .social-bg-col {
-    background: #CAFF33;
-    height: 43px;
-    width: 43px;
-  }
-
-
-
-  @media  (min-width: 320px) and (max-width: 430px) {
-    .social {
-      position: relative;
-      bottom: 1.5rem;
-    }
-   
-  }
+ 
+}
+.footer-border-col {
+  border: 1px solid #262626;
+}
+.social-bg-col {
+  background: #CAFF33;
+  height: 43px;
+  width: 43px;
+}
  
 
 

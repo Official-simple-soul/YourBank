@@ -1,26 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Bank</title>
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css	">
-  <!-- Css -->
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <!-- Swiper Js -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- stylings -->
+    <link rel="stylesheet" href="./assets/css/login-style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css	">
+    <!-- boxicon icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- swipper -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- AOS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+  <div>
+    <img src="assets/images/home_images/dots.png" alt="">
+  </div>
+  <nav class="container navbar navbar-expand-lg col-lg col-11 z-1 my-4 fixed-top rounded-5">
+    <div class="container">
+      <div class="flex-grow-1 d-flex align-items-center gap-1" data-aos="zoom-in">
+        <img src="assets/icons/home_icon/shape-30.png" alt="" data-aos="fade-right">
+        <span class="text-white" data-aos="fade-left">YourBanK</span>
+      </div>
+      <button class="navbar-toggler border-0 rounded-5 border-btn-col" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-aos="zoom-in">
+        <img class="my-1" src="assets/icons/home_icon/Vector (Stroke).png" alt="">
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mt-2 mt-lg-0 mb-2 mb-lg-0">
+          <li class="nav-item" data-aos="zoom-in">
+            <a class="nav-link text-white"href="./index.html">Home</a>
+          </li>
+          <li class="nav-item" data-aos="zoom-in">
+            <a class="nav-link" href="./careers.html">Careers</a>
+          </li>
+          <li class="nav-item " data-aos="zoom-in">
+            <a class="nav-link" href="./about-us.html">About</a>
+          </li>
+          <li class="nav-item" data-aos="zoom-in">
+            <a class="nav-link" href="./security.html">Security</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav gx-2 mb-2 mb-lg-0">
+          <li class="nav-item me-2 mb-2 mb-lg-0" data-aos="zoom-in">
+            <a class="nav-link" href="./signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item" data-aos="zoom-in">
+            <a class="login nav-link"  style="background-color: #262626;" aria-current="page"  href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Js Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Swiper Js -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+
+    <main id="bold">
+        <div class="container-sm">
+            <div class="log-into py-5 border border-dark rounded-4">
+                <div class="text-center" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                    <h2 class=" c">Login</h2>
+                    <p class="px-5 mx-2">Welcome back! Please log in to access your account.</p>
+                </div>
+                <div>
+                    <form action="" method="get">
+                        <div class="row" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                            <div class="col-sm-12 col-md-6 col-lg-6 my-3"><input type="text" class="form-control rounded-pill p-3 bg-transparent border-1 border-dark" id="exampleFormControlInput1" placeholder="Enter First Name"></div>
+                            
+                            <div class="col-sm-12 col-md-6 col-lg-6 my-3"><input type="email" class="form-control rounded-pill p-3 bg-transparent border-1 border-dark" id="exampleFormControlInput1" placeholder="Enter your Email"></div>
+                           
+                        </div>
+                        <div class="row justify-content-center" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                            <div class="col-sm-12 col-md-6 col-lg-6 my-3"><button type="submit" class="btn b w-100 rounded-pill p-3 border-1 border-dark">Login</button>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                            <div class="col-sm-12 col-md-6 col-lg-6 my-3"><button type="submit" class="btn d w-100 rounded-pill p-3 border-1 border-dark">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                     <div class="d-flex align-items-center flex-column" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                        <span class=" signup-slash"><h4 >Or Continue with</h4></span>
+                        
+                        <div class="d-flex my-4">
+                        <div class="rounded-circle p-2 out mx-2">
+                            <div class="rounded-circle p-2 in d-flex">
+                                <i class='bx bxl-google fs-3 ' style='color:#caff33'  ></i>
+                            </div>
+                        </div>
+                        <div class="rounded-circle p-2 out mx-2">
+                            <div class="rounded-circle p-2 in d-flex">
+                                <i class='bx bxl-facebook-circle fs-3 ' style='color:#caff33'  ></i>
+                            </div>
+                        </div>
+                        <div class="rounded-circle p-2 out mx-2">
+                            <div class="rounded-circle p-2 in d-flex">
+                            <i class='bx bxl-apple fs-3 '  style='color:#caff33' ></i>
+                            </div>
+                        </div>
+                        </div>
+                     </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <section id="bold" >
+      <div class="container-sm py-5">
+          <div class="pb-5 mb-4 " data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+              <h2 id="Testimonials">
+                  Our <span class="c">Testimonials</span>
+              </h2>
+              <div class="row justify-content-between " data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                  <p class="col-lg-6 col-md-6 col-sm-12 my-3 fs-6" id="Testimonials">Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus pellentesque elit.
+                     Pellentesque eget ut imperdiet nulla penatibus. Nascetur viverra arcu sed amet cursus purus.
+                  </p>
+                  <div class=" d-flex rounded-pill border-2 border-dark col-lg-4 col-md-4 col-sm-12 selection" >
+                      <button type="submit" class="btn b w-50 rounded-pill border border-dark pills p-2">For Individuals</button>
+                      <button type="submit" class="btn  w-50 rounded-pill pills p-2">For Businesses</button>
+                  </div>
+
+              </div>
+          </div>
+
+              <!-- Slider main container -->
+          <div class="swiper text-body-white">
+             <!-- Additional required wrapper -->
+              <div class="swiper-wrapper z-0" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+    <!-- Slides -->
+    <div class="swiper-slide border border-dark rounded-4" data-swiper-autoplay="2000">  
+        <div class="text-center gy-4">
+          <div class="slash"><img src="./images/Icon.svg" alt="" srcset=""></div>
+      <p class="py-4 mx-2">YourBank has been my trusted financial partner for years. thier personalized service and innovative 
+          digital banking solutions have made managing my finances a breeze
+      </p>
+      <h5  class="c">Sara T</h5>
+  </div>
+    </div>
+    <div class="swiper-slide border border-dark rounded-4" data-swiper-autoplay="2000">
+      <div class="text-center gy-4">
+          <div class="slash"><img src="./images/Icon.svg" alt="" srcset=""></div>
+          <p class="py-4 mx-2">I recently started my own business, and YourBank has been instrumental in helping 
+              me set up my business accounts and secure the financing I needed.
+          </p>
+          <h5  class="c">John D</h5>
+      </div>
+    </div>
+    <div class="swiper-slide border border-dark rounded-4" data-swiper-autoplay="2000">
+      <div class="text-center ">
+          <div class="slash"><img src="./images/Icon.svg" alt="" srcset=""></div>
+          <p class="py-4 mx-2">
+              I love the convience of YourBank's banking app. It allows me to stay on my finances and make transaction on the app. 
+              The app is user-friendly and secure.
+          </p>
+          <h5  class="c">Emily G</h5>
+      </div>
+    </div>
+    
+              </div>
+  <!-- If we need navigation buttons -->
+              <div class="swipernav d-flex">
+                <div class="  rounded-5"><i class='button-prev bx bx-left-arrow-alt' style='color:#caff33'  ></i></div>
+                <div class="  rounded-5"><i class='button-next bx bx-right-arrow-alt'style='color:#caff33'></i></div>
+          </div>
+          </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer class="welcome-section-bg-col py-5">
+      <div class="footer-contain container-sm py-5 ">
+        <div class="yourbank d-flex justify-content-center align-items-center  text-white gap-1 " data-aos="zoom-in">
+          <img src="assets/icons/home_icon/shape-30.png" alt="" class="align-content-center  align-items-center ">
+          <p class="mt-3">YourBank</p>
+        </div>
+        <div class="list mt-5">
+          <ul class="navbar-nav d-flex flex-row align-content-center justify-content-center gap-1 gap-lg-5   text-white  ">
+            <li class="nav-item" data-aos="zoom-in">
+              <a class="footer-link text-white" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item" data-aos="zoom-in">
+              <a class="footer-link text-white" href="./careers.html">Careers</a>
+            </li>
+            <li class="nav-item " data-aos="zoom-in">
+              <a class="footer-link text-white  " href="./about-us.html">About</a>
+            </li>
+            <li class="nav-item" data-aos="zoom-in">
+              <a class="footer-link text-white" href="./security.html">Security</a>
+            </li>   
+          </ul>
+        </div>
+        <div class="social-handles  d-flex flex-wrap flex-sm-row   gap-2 align-content-center justify-content-center   mt-5 text-white   py-3 ">
+          <div data-aos="zoom-in">
+            <img src="assets/icons/home_icon/email.png" alt="" class="">
+          </div>
+          <div data-aos="zoom-in">
+            <p>hello@skillbirdge.com</p>
+          </div>
+          <div data-aos="zoom-in">
+            <img src="assets/icons/home_icon/phone.png" alt="">
+          </div>
+          <div data-aos="zoom-in">
+            <p>+91 91813 23 2309</p>
+          </div>
+          <div data-aos="zoom-in">
+            <img src="assets/icons/home_icon/location.png" alt="" class="">
+          </div>
+          <div data-aos="zoom-in">
+            <p>Somewhere in the World</p>
+          </div>
+        </div>
+        <div class=" mt-5 p-2   rounded-5 text-white  footer-border-col  container-sm welcome-text-bg-col " data-aos="zoom-in">
+          <div class="container d-flex flex-column flex-sm-row  align-items-center  justify-content-between ">
+            <div class=" d-flex gap-2 px-2 social" data-aos="fade-right">
+              <a class="facebook rounded-circle social-bg-col text-center p-2" href="#" data-aos="fade-down-right">
+                <img src="assets/icons/home_icon/facebook.png" alt="">
+              </a>
+              <a class="twitter rounded-circle social-bg-col text-center p-2"  href="#" data-aos="fade-up-right">
+                <img src="assets/icons/home_icon/twitter.png" alt="">
+              </a>
+              <a class="linkdeln rounded-circle social-bg-col text-center p-2" href="#" data-aos="fade-down-left">
+                <img src="assets/icons/home_icon/linkedin.png" alt="">
+              </a>
+            </div>
+            <div data-aos="fade-up">
+              <p class="mt-2 line-text-col  ">YourBank All Rights Reserved</p>
+            </div>
+    
+            <div class="d-flex gap-2 "data-aos="fade-left">
+              <a class="mt-2 line-text-col text-decoration-none" href="#">Privacy Policy</a>
+              <div class="line "></div>
+              <a class="mt-2 line-text-col text-decoration-none" href="#">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JavaScript -->
+    <script src="./javascript/app.js"></script>
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
